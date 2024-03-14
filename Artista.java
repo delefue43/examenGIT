@@ -2,6 +2,7 @@ package evf.javadoc.original;
 
 public class Artista {
     String nombreArtista;
+    String apellidoArtista;
 
     public Artista(String nombreArtista) {
         this.nombreArtista = nombreArtista;
@@ -18,7 +19,11 @@ public class Artista {
         return nombreArtista;
 	//Esto es un comentario
     }
-    
+
+    public String getApellidoArtista() {
+	return apellidoArtista;
+	//Domingo Miguel Elena Fuentes
+    } 
 }
 
 
