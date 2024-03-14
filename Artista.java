@@ -3,6 +3,7 @@ package evf.javadoc.original;
 public class Artista {
     String nombreArtista;
     String apellidoArtista;
+    //Variables de la clase Artista
 
     public Artista(String nombreArtista) {
         this.nombreArtista = nombreArtista;
